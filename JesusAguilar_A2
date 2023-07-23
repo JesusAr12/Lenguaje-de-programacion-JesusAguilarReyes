@@ -1,0 +1,33 @@
+/******************************************************************************
+
+          Programa que permite sumar, restar, multiplicar y dividir 
+              2 números obteniendo resultados al mismo tiempo
+
+*******************************************************************************/
+#include <iostream>
+
+int main(){
+    float n1, n2;
+    
+    std::cout<<"Ingrese su primer número:  ";
+    std::cin>>n1;
+    
+    std::cout<<"Ingrese su segundo número  ";
+    std::cin>>n2;
+    
+    float suma=n1+n2;
+    float resta=n1-n2;
+    float multiplicacion=n1*n2;
+    float division=n1/n2;
+    
+    std::cout<<"El resultado de la suma es: "<<suma<<std::endl;
+    std::cout<<"El resultado de la resta es: "<<resta<<std::endl;
+    std::cout<<"El resultado de la multiplicación es: "<<multiplicacion<<std::endl;
+    std::cout<<"El resultado de la división es "<<division<<std::endl;
+    
+    std::cout<<"Ahora intentalo con otros números";
+    
+    return 0;
+    
+    
+}
